@@ -12,7 +12,7 @@ spring:
     properties:
       hibernate.dialect: org.hibernate.dialect.MySQLDialect
 server:
-  port: 8080
+  port: ${PORT:8080}
 pgds:
   jwt:
     # Must be >= 32 chars. Override with JWT_SECRET in real deployments.
