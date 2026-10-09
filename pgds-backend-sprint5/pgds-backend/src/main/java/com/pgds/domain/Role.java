@@ -1,0 +1,3 @@
+package com.pgds.domain;
+
+public enum Role { SUPER_ADMIN, GOVT_OFFICER, WAREHOUSE_MANAGER, FPS_DEALER, BENEFICIARY, AUDITOR }

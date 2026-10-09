@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: pgds-backend
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/pgds?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true}
+    username: ${DB_USER:root}
+    password: ${DB_PASS}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate.dialect: org.hibernate.dialect.MySQLDialect
+server:
+  port: 8080
+pgds:
+  jwt:
+    # Must be >= 32 chars. Override with JWT_SECRET in real deployments.
+    secret: ${JWT_SECRET:change-me-change-me-change-me-change-me-1234}
+    expiration-minutes: 120
+  cors:
+    allowed-origin: ${CORS_ORIGIN:http://localhost:3000}
+  seed-demo-data: ${SEED_DEMO:false} #Do True For Demo Locally.
+  entitlement:
+    aay-kg-per-family: 35
+    phh-kg-per-person: 5
+    rice-share: 0.5   # fraction of the monthly quota issued as rice; remainder is wheat
+  ai:
+    schedule-enabled: true          # nightly analysis at 02:00 IST
+    window-days: 90                 # history used to train the Isolation Forest
+    alert-lookback-days: 7          # only distributions in this window can raise new alerts
+    anomaly-threshold: 0.65         # Isolation Forest score (0.5 = normal, 1.0 = very anomalous)
+    min-training-samples: 50
+    trees: 100
+    sample-size: 256
+    demo-endpoint-enabled: ${AI_DEMO_ENDPOINT:false}   # set false in production and Set true for Local

@@ -1,0 +1,71 @@
+# LABEL|complaint text   (one per line, no pipe characters inside the text)
+OVERCHARGING|dealer is charging extra money for rice
+OVERCHARGING|shop owner asking more money than the fixed price
+OVERCHARGING|we were asked to pay a bribe to get our ration
+OVERCHARGING|overcharged for wheat per kg
+OVERCHARGING|he demanded extra charge for every bag
+OVERCHARGING|shopkeeper takes more money than the government rate
+OVERCHARGING|they ask us to pay extra rupees for packing
+OVERCHARGING|dukandar zyada paise maang raha hai
+OVERCHARGING|price charged is higher than the displayed rate
+OVERCHARGING|dealer takes extra money and does not give a receipt
+DENIAL_OF_RATION|shop owner refused to give ration this month
+DENIAL_OF_RATION|they denied my family ration saying stock is over
+DENIAL_OF_RATION|I was sent back without any grain
+DENIAL_OF_RATION|ration not given even though I have a valid card
+DENIAL_OF_RATION|dealer said my name is not in the list and gave nothing
+DENIAL_OF_RATION|they did not give me wheat this month
+DENIAL_OF_RATION|ration dene se mana kar diya
+DENIAL_OF_RATION|no ration was given to us for two months
+DENIAL_OF_RATION|shop refuses to serve old people and sends them back
+DENIAL_OF_RATION|my entitlement was denied without any reason
+SHORT_WEIGHT|received less quantity than my entitlement
+SHORT_WEIGHT|the rice weight is less than what is written in the receipt
+SHORT_WEIGHT|dealer uses a faulty weighing scale
+SHORT_WEIGHT|grain weighed short by one kilo
+SHORT_WEIGHT|they gave only four kg instead of five
+SHORT_WEIGHT|anaaj kam tola gaya
+SHORT_WEIGHT|bag looks underweight when measured at home
+SHORT_WEIGHT|wheat quantity is much less than allotted
+SHORT_WEIGHT|the weighing machine shows wrong reading
+SHORT_WEIGHT|we got less rice than the quota
+POOR_QUALITY|rice had insects and bad smell
+POOR_QUALITY|wheat is full of stones and dirt
+POOR_QUALITY|the grain was rotten and not fit to eat
+POOR_QUALITY|low quality rice mixed with husk
+POOR_QUALITY|gehu kharab aur keede wala hai
+POOR_QUALITY|the wheat flour smells bad and has mould
+POOR_QUALITY|grain is dirty and spoiled
+POOR_QUALITY|rice was yellow and damp
+POOR_QUALITY|quality of grain is very poor
+POOR_QUALITY|found worms in the wheat
+SHOP_CLOSED|shop is closed on most working days
+SHOP_CLOSED|ration shop never opens at the fixed time
+SHOP_CLOSED|dukaan band rehti hai
+SHOP_CLOSED|shop remained shut the whole week
+SHOP_CLOSED|dealer opens the shop only for one hour
+SHOP_CLOSED|I came three times and the shop was locked
+SHOP_CLOSED|shop timings are irregular and it opens late
+SHOP_CLOSED|the ration shop is not open even on distribution days
+SHOP_CLOSED|dealer is always absent from the shop
+SHOP_CLOSED|shop was closed when we went to collect grain
+CARD_ISSUE|my name is missing from the ration card
+CARD_ISSUE|need to add a new member to my card
+CARD_ISSUE|aadhaar not linked with ration card
+CARD_ISSUE|ration card details have wrong spelling
+CARD_ISSUE|ration card mein naam nahi hai
+CARD_ISSUE|request correction of address on the card
+CARD_ISSUE|card category should be changed
+CARD_ISSUE|my card was not renewed
+CARD_ISSUE|lost my ration card and need a duplicate
+CARD_ISSUE|family member name removed from card by mistake
+OTHER|please improve the facilities near the shop
+OTHER|there is no shade or drinking water at the queue
+OTHER|long queues at the shop on distribution day
+OTHER|need information about the next distribution date
+OTHER|the shop should have a complaint box
+OTHER|suggestion to start an online token system
+OTHER|no seating for elderly people in the waiting area
+OTHER|the road to the shop is damaged
+OTHER|how can I find my nearest ration shop
+OTHER|thank you for the new digital system
